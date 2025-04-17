@@ -1,10 +1,13 @@
-import {Question1, Question2} from './components.jsx';
+import {RGB, LargeProd, Week, PayRaise, LeapYear} from './components.jsx';
 
 function App() {
   return (
     <>
-        <Question1 />   
-        <Question2 /> 
+        <RGB />   
+        <LargeProd /> 
+        <Week /> 
+        <PayRaise /> 
+        <LeapYear /> 
     </>
   )
 }

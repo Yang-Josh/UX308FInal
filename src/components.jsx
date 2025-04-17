@@ -4,9 +4,9 @@ function RGB(){
     return <section>
 1. Create color based on RGB values
       <h2>results</h2>
-      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
-      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
-      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue','blue')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue','blue')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue','blue')}"</p>
     </section>;
 }
 
