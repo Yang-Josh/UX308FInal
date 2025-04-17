@@ -1,37 +1,37 @@
 function QuestionA(rgb1, rgb2){
-    const colour = "";
-    if (rgb1 = "red"){
-        if(rgb2 = "red"){
+    var colour = "";
+    if (rgb1 == "red"){
+        if(rgb2 == "red"){
             colour = "red";
         }
-        else if (rgb2 = "blue"){
+        else if (rgb2 == "blue"){
             colour = "fuchsia";
         }
-        else if (rgb2 = "green"){
+        else if (rgb2 == "green"){
             colour = "yellow";
         }
 
     }
-    else if (rgb1 = "green"){
-        if(rgb2 = "red"){
+    else if (rgb1 == "green"){
+        if(rgb2 == "red"){
             colour = "yellow";
         }
-        else if (rgb2 = "blue"){
+        else if (rgb2 == "blue"){
             colour = "aqua";
         }
-        else if (rgb2 = "green"){
+        else if (rgb2 == "green"){
             colour = "green";
         }
 
     }
-    else if (rgb1 = "blue"){
-        if(rgb2 = "red"){
+    else if (rgb1 == "blue"){
+        if(rgb2 == "red"){
             colour = "fuchsia";
         }
-        else if (rgb2 = "blue"){
+        else if (rgb2 == "blue"){
             colour = "blue";
         }
-        else if (rgb2 = "green"){
+        else if (rgb2 == "green"){
             colour = "aqua";
         }
     }
@@ -43,9 +43,9 @@ function QuestionA(rgb1, rgb2){
 }
 
 function QuestionB(val1, val2, val3){
-    const Fproduct = 0;
-    const prod1 = 0;
-    const prod2 = 0;
+    var Fproduct = 0;
+    var prod1 = 0;
+    var prod2 = 0;
     if (val1> val2 && val1> val3){
         prod1 = val1;
         if (val2 > val3){
@@ -80,6 +80,7 @@ function QuestionB(val1, val2, val3){
     }
 
     else {
+        Fproduct = 0;
     }
 
     Fproduct = prod1*prod2;
@@ -88,26 +89,26 @@ function QuestionB(val1, val2, val3){
 }
 
 function QuestionC (day_num){
-    const day ="";
-    if (day_num = 1){
+    var day ="";
+    if (day_num == 1){
         day = "Sunday";
     }
-    else if (day_num = 2){
+    else if (day_num == 2){
         day = "Monday";
     }
-    else if (day_num = 3){
+    else if (day_num == 3){
         day = "Tuesday";
     }
-    else if (day_num = 4){
+    else if (day_num == 4){
         day = "Wednesday";
     }
-    else if (day_num = 5){
+    else if (day_num == 5){
         day = "Thursday";
     }
-    else if (day_num = 6){
+    else if (day_num == 6){
         day = "Friday";
     }
-    else if (day_num = 7){
+    else if (day_num == 7){
         day = "Saturday";
     }
 
@@ -119,8 +120,8 @@ function QuestionC (day_num){
 }
 
 function QuestionD (status, years, salary){
-    const Newsal = 0;
-    if (status = "F"){
+    var Newsal = 0;
+    if (status == "F"){
         if (years >= 10){
             Newsal = salary+(salary*.05);
         
@@ -133,7 +134,7 @@ function QuestionD (status, years, salary){
             Newsal = salary+(salary*.02);
         }
     }
-    else if (status = "P"){
+    else if (status == "P"){
         if (years > 10){
             Newsal = salary+(salary*.03);
         
@@ -156,19 +157,19 @@ function QuestionD (status, years, salary){
 }
 
 function QuestionE (year){
-    const Lyear = "";
+    var Lyear = "";
     const YearCalc1 = year%4;
     const YearCalc2 = year%100;
     const YearCalc3 = year%400;
-    if (YearCalc2 = 0) {
+    if (YearCalc2 == 0) {
         Lyear = "Not a leap year";
 
         }
-        else if (YearCalc3 = 0 ){
+        else if (YearCalc3 == 0 ){
             Lyear = "Is a leap year"
        
         }
-        else if (YearCalc1 = 0){
+        else if (YearCalc1 == 0){
             Lyear = "Is a leap year";
         
         }
