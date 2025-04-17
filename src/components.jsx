@@ -1,23 +1,53 @@
-import {fahrenheitToCelsius, hello} from './functions.js';
+import {QuestionA, QuestionB, QuestionC, QuestionD, QuestionE} from './functions.js';
 
-function Question1(){
+function RGB(){
     return <section>
-1. Write a function that takes a _name_ as an argument and _returns a string_ that _contains "hello"_ and the name paramerer. Test at least 3 names. <br />*Note ... I solved this one already
+1. Create color based on RGB values
       <h2>results</h2>
-      <p>hello("Rich") == "{hello('Rich')}"</p>
-      <p>hello("Bill") == "{hello('Bill')}"</p>
-      <p>hello("Chris") == "{hello('Chris')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
+      <p>QuestionA("blue", "blue") == "{QuestionA('blue', 'blue')}"</p>
     </section>;
 }
 
-function Question2(){
+function LargeProd(){
     return <section>
-2. Write a function that converts from fahrenheit to celsius        
+2. Find top 2 biggest and calculate product        
 <h2>results</h2>
-<p>fahrenheitToCelsius(32) == "{fahrenheitToCelsius(32)}"</p>
-<p>fahrenheitToCelsius(212) == "{fahrenheitToCelsius(212)}"</p>
-<p>fahrenheitToCelsius(70) == "{fahrenheitToCelsius(70)}"</p>
+<p>QuestionB(12,10,0) == "{QuestionB(12,10,0)}"</p>
+<p>QuestionB(12,10,0) == "{QuestionB(12,10,0)}"</p>
+<p>QuestionB(12,10,0) == "{QuestionB(12,10,0)}"</p>
     </section>
 }
 
-export {Question1, Question2}
+function Week(){
+    return <section>
+3. Translate number to day of the week        
+<h2>results</h2>
+<p>QuestionC(2) == "{QuestionC(2)}"</p>
+<p>QuestionC(2) == "{QuestionC(2)}"</p>
+<p>QuestionC(2) == "{QuestionC(2)}"</p>
+    </section>
+}
+
+function PayRaise(){
+    return <section>
+4. Take info and calculate pay raise amount       
+<h2>results</h2>
+<p>QuestionD(P,10,10) == "{QuestionD(P,10,10)}"</p>
+<p>QuestionD(P,10,10) == "{QuestionD(P,10,10)}"</p>
+<p>QuestionD(P,10,10) == "{QuestionD(P,10,10)}"</p>
+    </section>
+}
+
+function LeapYear(){
+    return <section>
+5. Calculate if it's a leap year     
+<h2>results</h2>
+<p>QuestionE(400) == "{QuestionE(400)}"</p>
+<p>QuestionE(400) == "{QuestionE(400)}"</p>
+<p>QuestionE(400) == "{QuestionE(400)}"</p>
+    </section>
+}
+
+export {RGB, LargeProd, Week, PayRaise, LeapYear}
