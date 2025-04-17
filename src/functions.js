@@ -161,12 +161,12 @@ function QuestionE (year){
     const YearCalc1 = year%4;
     const YearCalc2 = year%100;
     const YearCalc3 = year%400;
-    if (YearCalc2 == 0) {
+    if (YearCalc1 !=0 && YearCalc2 == 0) {
         Lyear = "Not a leap year";
 
         }
         else if (YearCalc3 == 0 ){
-            Lyear = "Is a leap year"
+            Lyear = "Is a leap year!"
        
         }
         else if (YearCalc1 == 0){
